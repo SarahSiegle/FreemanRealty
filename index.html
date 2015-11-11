@@ -16,8 +16,14 @@
 
     <!-- Custom CSS -->
     <link href="css/business-casual.css" rel="stylesheet">
+    
+    <!-- Custom CSS to overwrite Bootstrap Core and business-casual-->
+    <link href="css/custom.css" rel="stylesheet">
 
-    <!-- Fonts -->
+    <!-- This will get rid of errors in the Developer Tools related to favicon.ico (bookmark icons) -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <!-- Fonts <link href="custom.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
@@ -87,13 +93,13 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="img/slide-1.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/grass.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-2.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/keysRusty.jpg" alt="">
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="img/slide-3.jpg" alt="">
+                                <img class="img-responsive img-full" src="img/door.jpg" alt="">
                             </div>
                         </div>
 
@@ -146,9 +152,17 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+			<div class="boxFooter">
+			    <div class="col-sm-2 text-center">
+                    <img class="img-responsive" src="img/RealtorLogoSmall.gif" alt="">
+                </div>
+                <div class="col-sm-8 text-center">
                     <p>Copyright &copy; freemanrealtyhomes.com 2014</p>
                 </div>
+				<div class="col-sm-2 text-center">
+                    <img class="img-responsive" src="img/EqualHousingOpportunityLogo2.gif" alt="">
+                </div>
+		    </div>
             </div>
         </div>
     </footer>
